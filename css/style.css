@@ -1,0 +1,368 @@
+@import url(reset.css);
+
+.wrapper {
+    font-family: 'Josefin Sans';
+    /* padding: 15px; */
+    background:  url(../img/first/phone.jpg) no-repeat;
+    background-size: cover;
+    overflow: clip;    
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    color: aliceblue;
+}
+.header {
+    /* width: 100px;
+    height: 100px; */
+}
+[class*="__container"] {
+	max-width: 768px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+.wrapper {
+}
+.container--margin-b{
+    /* margin-bottom: 50px; */
+}
+.header {
+    
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 20px;
+}
+.header__namber-account {
+}
+.header__lable {
+}
+.header__quantity-coins {
+    margin: 0 auto;
+    flex-grow: 1;
+    /* width: 100%; */
+
+}
+.header__lable-quantity-coins {
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;   
+}
+.border{
+    border-radius: 20px;
+    border: 3px solid rgba(255, 166, 0, 0.687);
+}
+
+.header__lable-quantity-coins::before{
+    content: "";
+    display: inline-block;
+    background: url(../img/first/coin.svg) 0 0 no-repeat;
+    background-size: cover;
+    vertical-align: bottom;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.border__animation{
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+}
+.main--margin{
+    margin-bottom: 15px;
+}
+.main__container {
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+    gap: 10px;
+}
+.main__farming {
+    position: relative;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+}
+.main__lvl span{
+    width: 100%;
+    padding: 1px 5px;
+    border: 2px solid rgba(255, 166, 0, 0.687);
+    border-radius: 30px;
+}
+.main__lvl-text span{
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+
+}
+.main__total::before {
+    content: "";
+    display: inline-block;
+    background: url(../img/first/coin.svg) 0 0 no-repeat;
+    background-size: cover;
+    vertical-align: center;
+    width: 20px;
+    height: 20px;
+}
+.main__total-text {
+    display: inline-block;
+    vertical-align: top;
+}
+.main__button-farm {
+    padding: 5px 10px;
+    text-align: center;
+    border: 2px solid rgba(255, 166, 0, 0.687);
+    border-radius: 30px;
+}
+.main__image{
+    width: 35%;
+    position: absolute;
+    top: -15%;
+    right: -10%;
+}
+.image__item{
+    width: 100%;
+}
+.main__left{
+    max-width: 70%;
+}
+.main__hive {
+    padding: 10px 20px;
+    position: relative;
+}
+.main__hive-text {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.main__production li:not(:last-child){
+    /* margin-bottom: 10px; */
+}
+.main__production li{
+    display: flex; 
+    align-items: flex-start;
+    position: relative; 
+}
+
+.main__image-hive {
+    width: 20%;
+    position: absolute;
+    top: -20%;
+    right: -10%;
+}
+.image-hive {
+}
+.image-hive__image {
+    width: 100%;
+    height: 100%;
+}
+
+[class*="item__"]::before {
+    content: "";
+    /* display: inline-block; */
+    /* background: url(../img/first/coin.svg) 0 0 no-repeat; */
+    /* background-position:  ; */
+    /* vertical-align: bottom; */
+    width: 25px;
+    height: 35px;
+    margin-top: -5px;
+    margin-right: 5px;
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    /* margin-right: 20px; */
+}
+.main__production li h3 span{
+    color: #FEAF0F;
+}
+.item__bees::before{
+    background: url(../img/first/hive-22.png) no-repeat;
+    background-size: contain;
+}
+.item__lvl::before {
+    background: url(../img/first/hive-22.png) no-repeat;
+    background-size: contain;
+    margin-top: -4px;
+    margin-left: 0px;
+}
+.item__honey::before {
+    background: url(../img/first/hive-22.png) no-repeat;
+    background-size: contain;
+    /* margin-top: -0px; */
+    /* margin-right: 30px;*/
+}
+.item__honey{
+    /*display: inline-block;*/
+    /*padding-left: 20px;*/
+}
+.main__slider {
+    position: relative;
+}
+.slider__image {
+    
+}
+.slider__img {
+    aspect-ratio: auto; 
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.slider__right-top{
+    position: absolute;
+    top: 1%;
+    right:1%;
+    width: 50px;
+    opacity: 0.7;
+}
+.slider {
+}
+.slider__left{
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    z-index: 19;
+    text-align: center;
+}
+.slider__lable {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.slider__lable {
+
+}
+.slider__link{
+    width: 40%;
+    color: black;
+    background-color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}
+footer {
+}
+.footer__container {
+    background-color: rgba(27, 10, 55, 0.5);
+    padding: 10px 20px;
+    border-radius: 50px 50px 0 0;
+    border: 5px solid rgba(27, 10, 55, 0.5);
+}
+.footer__tabs {
+}
+.tabs {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 0 10px;
+}
+.tabs li::after{
+    display: block;
+    content: "Home";
+    text-align: center;
+    font-size: 16px;
+}
+.tabs__home::after {
+    content: "Home";
+}
+.tabs li {
+    /* margin-bottom: 15px; */
+	flex:1;
+}
+.tabs li a img {
+	aspect-ratio: auto; 
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.tabs__farming::after {
+    content: "Farming";
+}
+.tabs__friends::after {
+    content: "FRIENDS";
+}
+.tabs__tasks::after {
+    content: "TASKS";
+}
+img{    
+    /* width: 50px;w */
+}
+
+/* FARMING */
+
+
+.main {
+}
+.main__container {
+}
+.main__border{
+    padding: 10px;
+}
+.container {
+}
+.container__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+    padding: 5px 10px;
+
+}
+.block__image{
+    width: 30%;
+}
+.block {
+}
+.block__items {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    
+
+}
+.block__img{
+    aspect-ratio: auto; 
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.block__sub-items {
+    display: flex;
+    margin-right: 10px;
+    gap: 10px;
+}
+.block__img {
+}
+.block__content-text {
+}
+.items {
+}
+.footer {
+}
+.footer__container {
+}
+.footer__tabs {
+}
+.tabs {
+}
+.tabs__home {
+}
+.tabs__farming {
+}
+.tabs__friends {
+}
+.tabs__tasks {
+}
