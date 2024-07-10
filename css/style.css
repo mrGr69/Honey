@@ -35,7 +35,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;
+    padding: 10px 20px;
 }
 h2{
     font-size: 24px;
@@ -55,7 +55,7 @@ h3{
 
 }
 .header__lable-quantity-coins {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     font-size: 24px;   
 }
@@ -82,33 +82,33 @@ main {
     display: flex;
 }
 .main--margin{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .main__container {
     /* height: 500px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* flex-grow: 1; */
-    /* gap: 20px; */
+    gap: 20px;
 
 }
 .main__farming, .main__hive, .main__slider{
     /* flex-basis: 30%; */
     /* flex: 1 0 0%; */
-    margin-bottom: 20px;
+    /* margin-bottom: 10px; */
     /* flex-grow: 1; */
     /* flex-basis: 30%; */
     flex-shrink: 0;
 
 }
 .main__hive, .main__slider{
-    flex-grow: 1;
-    flex-basis: 30%;
+    /* flex-grow: 1; */
+    /* flex-basis: 30%; */
 }
 .main__farming {
     position: relative;
-    padding: 20px 20px;
+    padding: 10px 10px 10px 15px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -150,7 +150,7 @@ main {
 .main__image{
     width: 40%;
     position: absolute;
-    top: 0px;
+    top: -10px;
     right: -20px;
 }
 .image__item{
@@ -186,7 +186,7 @@ main {
 .progress {
 }
 .progress__items:not(:last-child) {
-    margin-right: 10px;
+    /* margin-right: 10px; */
     
 }
 .progress__items{
@@ -204,7 +204,7 @@ main {
 }
 .progress__img{
     aspect-ratio: auto; 
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
 	object-fit: cover;
     margin-bottom: 10px;
@@ -244,7 +244,7 @@ main {
     .progress__third::after {
         font-size: smaller;
     }
-}
+
 .main__production li{
     display: flex; 
     align-items: flex-start;
@@ -366,12 +366,12 @@ footer {
 .tabs {
     display: flex;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 20px;
     padding: 0 10px;
 }
 .tabs li::after{
     display: block;
-    content: "Home";
+    /* content: "Home"; */
     text-align: center;
     font-size: 16px;
     margin-top: 5px;
@@ -379,6 +379,7 @@ footer {
 .tabs__home::after {
     content: "Home";
 }
+
 .tabs li {
     /* margin-bottom: 15px; */
 	flex:1;
@@ -393,10 +394,10 @@ footer {
     content: "Farming";
 }
 .tabs__friends::after {
-    content: "FRIENDS";
+    content: "Friends";
 }
 .tabs__tasks::after {
-    content: "TASKS";
+    content: "Tasks";
 }
 img{    
     /* width: 50px;w */
